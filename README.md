@@ -1,21 +1,43 @@
-# badapple
-badapple for terminal
+# Bad Apple!! ASCII Animation
 
-### How to use:
-create clone of this repo
+A Python script that plays the Bad Apple!! video as ASCII art in your terminal with synchronized audio.
 
-``git clone https://github.com/Majofer1352/badapple``
+![Bad Apple ASCII Demo](demo.gif) *(example gif would go here)*
 
-Now go to folder
+## Requirements
 
-``cd badapple``
+- Python 3.6+
+- FFmpeg
+- Linux/macOS terminal (Windows may need adjustments)
 
-and after that open virtual envarioment
+## Installation
 
-``source venv/bin/activate``
+1. Clone the repository:
+```bash
+git clone https://github.com/Majofer1352/badapple
+cd badapple
+```
 
-after that just type
+2. Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
-``python3 video_audio.py``
+3. Install required packages:
+```bash
+pip install opencv-python ffpyplayer numpy
+```
 
-## All Done!
+4. (Optional) For better performance:
+```bash
+sudo apt-get install ffmpeg  # On Ubuntu/Debian
+```
+
+## Usage
+
+1. Place your `badapple.mp4` file in the project directory
+2. Run the script:
+```bash
+python3 audio.py
+```
