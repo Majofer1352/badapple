@@ -19,5 +19,3 @@ after that just type
 ``python3 video_audio.py``
 
 ## All Done!
-# badapple
-# badapple
