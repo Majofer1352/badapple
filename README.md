@@ -29,15 +29,15 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install opencv-python ffpyplayer numpy
 ```
 
-4. (Optional) For better performance:
+4. For better performance:
 ```bash
 sudo apt-get install ffmpeg  # On Ubuntu/Debian
 ```
 
 ## Usage
 
-1. Place your `badapple.mp4` file in the project directory
+1. Go to directory with **.py** file
 2. Run the script:
 ```bash
-python3 audio.py
+python3 video_audio.py
 ```
