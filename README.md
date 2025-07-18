@@ -2,8 +2,6 @@
 
 A Python script that plays the Bad Apple!! video as ASCII art in your terminal with synchronized audio.
 
-![Bad Apple ASCII Demo](demo.gif) *(example gif would go here)*
-
 ## Requirements
 
 - Python 3.6+
