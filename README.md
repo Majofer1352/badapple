@@ -39,5 +39,5 @@ sudo apt-get install ffmpeg  # On Ubuntu/Debian
 1. Go to directory with **.py** file
 2. chose the script:
 ```bash
-python3 <small/medium/large/auto>.py
+python3 <small/medium/large/auto/original/custom>.py
 ```
